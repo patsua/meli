@@ -30,7 +30,7 @@ class SubscriptionServiceTest {
         });
 
     }
-    //Disabled
+  
     @Test
     public void returns_no_subscriptions_when_use_has_no_friends(){
         SubscriptionService service= new SubscriptionServiceFor(LOGGED_IN_USER);
